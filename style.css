@@ -1,0 +1,179 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #f7740f;
+    /* margin: 7px; */
+}
+
+/* Navbar */
+.navbar {
+    /* background: #FF5733; */
+    color: #ffc403;
+    padding: 1rem 0;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    font-size: 1.5rem;
+}
+
+.navbar .nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.navbar .nav-links li {
+    margin-left: 1.5rem;
+}
+
+.navbar .nav-links a {
+    color: #870505;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.navbar .nav-links a:hover {
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(#ffe203,#ffc403);
+    padding: 3rem 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    color: #fff;
+}
+
+.hero-content p {
+    margin: 1.5rem 0;
+    font-size: 1.2rem;
+}
+
+.hero-img{
+    width:"600px" ;
+    height:"900px";
+    border-radius: 5px;
+    margin: 7px;
+
+   
+}
+
+.order-btn {
+    padding: 0.8rem 1.5rem;
+    background-color: #FF5733;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.order-btn:hover {
+    background-color: #ff704d;
+}
+
+/* Menu Section */
+.menu {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.meals {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.meal-item {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.meal-item img {
+    width: 250px;
+    height: 200px;
+}
+
+.meal-item h3 {
+    margin-top: 0.5rem;
+}
+
+.meal-item p {
+    margin-top: 0.3rem;
+    color: #FF5733;
+}
+
+/* Reviews Section */
+.reviews {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #f4f4f4;
+}
+
+.review-list {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.review-item {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+footer .socials {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+footer .socials li {
+    display: inline;
+}
+
+footer .socials a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer .socials a:hover {
+    color: #FF5733;
+}
